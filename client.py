@@ -3,7 +3,7 @@ from select import select
 import time
 import uuid
 
-import message
+from . import message
 
 class Client:
     def __init__(self):

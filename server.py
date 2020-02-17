@@ -1,6 +1,6 @@
 import socket
-import message
 from select import select
+from . import message
 
 class Server:
     def __init__(self):
